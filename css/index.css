@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-image {
+    margin: 15px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +98,49 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-text .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-text {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.bottom .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.info-section .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin-top: 15px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 7px 19px;
+    text-align: center;
+    font-size: 18px;
+    margin: 12px 2px;
+    border-radius: 8px;
 }
 
 .middle-content {
@@ -104,12 +162,67 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main.info .info-section {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.boxes .c1 {
+    background: teal;
+}
+
+.boxes .c2 {
+    background: gold;
+}
+
+.boxes .c3 {
+    background: cadetblue;
+}
+
+.boxes .c4 {
+    background: coral;
+}
+
+.boxes .c5 {
+    background: crimson;
+}
+
+.boxes .c6 {
+    background: forestgreen;
+}
+
+.boxes .c7 {
+    background: darkorange;
+}
+
+.boxes .c8 {
+    background: hotpink;
+}
+
+.boxes .c9 {
+    background: indigo;
+}
+
+.boxes .c10 {
+    background: dodgerblue;
+}
+
+.boxes .c1 {
+    background: teal;
 }
 
 .bottom-content {
